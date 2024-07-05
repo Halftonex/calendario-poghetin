@@ -15,7 +15,7 @@ export const Info = ({ cost, onCostChange, context, onContextChange }) => {
         <span className="input-group-text">€</span>
       </div>
 
-      <div className="input-group w-100">
+      <div className="input-group w-75">
         <span className="input-group-text" id="basic-addon1">
           Contesto
         </span>
