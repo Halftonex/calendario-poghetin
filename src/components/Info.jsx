@@ -4,7 +4,7 @@ export const Info = ({ cost, onCostChange, context, onContextChange }) => {
 
   return (
     <>
-      <div className="input-group w-50">
+      <div className="input-group w-25">
         <input
           type="text"
           className="form-control"
@@ -15,7 +15,7 @@ export const Info = ({ cost, onCostChange, context, onContextChange }) => {
         <span className="input-group-text">€</span>
       </div>
 
-      <div className="input-group w-50">
+      <div className="input-group w-75">
         <span className="input-group-text" id="basic-addon1">
           Contesto
         </span>
